@@ -1,3 +1,4 @@
+
 // launch with node parser.js PATH_TO_FILE
 const path = process.argv[2]
 
@@ -40,4 +41,4 @@ function matchRegexAndLog(data){
     console.log('Total new charges: ' + data.match(totalNewChargesRegex))
 }
 
-getFile(path)
+getFileAndLog(path)
